@@ -1,3 +1,4 @@
+
 #include <zephyr/kernel.h>
 #include <stdio.h>
 
@@ -22,4 +23,16 @@ void main(void)
         // Your main application code can run here
         // You can perform other tasks while the timer is active
     }
+/*
+ * Copyright (c) 2012-2014 Wind River Systems, Inc.
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+#include <stdio.h>
+
+int main(void)
+{
+	printf("Hello World! %s\n", CONFIG_BOARD);
+	return 0;
 }
