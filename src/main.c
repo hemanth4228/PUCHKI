@@ -18,7 +18,7 @@ void main(void)
 
     // Start the timer with an initial timeout of 2 seconds and a period of 4 seconds
     k_timer_start(&my_timer, K_SECONDS(2), K_SECONDS(4));
-
+}
     while (1) {
         // Your main application code can run here
         // You can perform other tasks while the timer is active
